@@ -53,13 +53,6 @@
   border: 3px solid black;
 }
 
-.promo4{
-  height: 200px;
-  background-color: orange;
-  padding: 30px;
-  border: 3px solid black;
-}
-
 footer{
   height: 100px;
   background-color: black;
@@ -69,4 +62,19 @@ footer{
 
 .footer h3{
   color: white;
+}
+
+/* Media Queries */
+
+@media screen and ( min-width: 375px) {
+  .promo1 { background-color: teal;}
+  .promo2 { background-color: teal;}
+  .promo3 { background-color: teal;}
+  .content { background-color: aqua;}
+  .aside { background-color: red;}
+}
+
+@media screen and ( min-width: 786px) {
+  .header { background: green;}
+  .nav { background-color: blue;}
 }
